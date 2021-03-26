@@ -14,10 +14,22 @@ Para el uso de esta aplicación se necesitan tener instalados los siguientes com
 
 ### Uso 
 Para el uso de la apliacion deben clonar el repositorio en su maquina con el comando:
-* git clone 
+* git clone https://github.com/jsr25/ParcialArep2Lambda.git
 
-## video 
+debemos entrar en la raiz de proyecto y ejecutar
+* mvn package 
 
+luego debemos entrar en aws y subir el jar generado y especificar la calse y el metodo que se usara 
+![]("./img/1.png")
+
+luego de tener la funcion lambda entraremos en el apigateway donde realizaremos creamos un metodo, un recurso e implementaremos una api
+como se muestra en la siguiente imagen
+![]("./img/2.png")
+
+
+
+## video
+https://www.youtube.com/watch?v=MWZwHlQWTeg&ab_channel=JuanRamos en este video podemos pueden observar la implementacion de lambda 
 
 ### Javadoc
 La documentación se encuentra en el directorio apidocs dentro el directorio Robin y LogService, para generar una nueva documentación
