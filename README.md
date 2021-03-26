@@ -20,11 +20,11 @@ debemos entrar en la raiz de proyecto y ejecutar
 * mvn package 
 
 luego debemos entrar en aws y subir el jar generado y especificar la calse y el metodo que se usara 
-![]("./img/1.png")
+![](./img/1.png)
 
 luego de tener la funcion lambda entraremos en el apigateway donde realizaremos creamos un metodo, un recurso e implementaremos una api
 como se muestra en la siguiente imagen
-![]("./img/2.png")
+![](./img/2.png)
 
 
 
